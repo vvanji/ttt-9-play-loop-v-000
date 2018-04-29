@@ -9,5 +9,9 @@ display_board(board)
 
 # Make sure to execute #play below
 def play(board)
-  turn(board)
+  count = 0
+  while count < 9
+    turn(board)
+    count += 1
+  end
 end
